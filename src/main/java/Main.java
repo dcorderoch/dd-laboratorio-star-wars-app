@@ -13,6 +13,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException, IOException {
         System.out.println("Lab3 SOA-chan cambio flujo ");
+        System.out.println("Lab3 SOA-chan cambio flujo para nueva branch");
         CloseableHttpClient httpClient = HttpClients.createDefault();
         try {
             HttpGet request = new HttpGet("https://swapi.dev/api/people");
